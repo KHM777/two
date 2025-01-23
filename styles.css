@@ -1,0 +1,44 @@
+/* استايل عام للجسم */
+body {
+    font-family: 'Roboto', Arial, sans-serif; /* الخط الأساسي */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+/* استايل الهيدر */
+header {
+    text-align: center;
+}
+
+/* استايل العنوان باستخدام الخط القديم */
+.signature {
+    font-family: 'Dancing Script', cursive; /* الخط القديم المظهر */
+    font-size: 90px; /* حجم الخط */
+    color: #; /* 333 لون النص */
+}
+
+/* استايل الفقرة */
+p {
+    color: #666;
+}
+
+/* استايل الزر */
+button {
+    background-color: #FF0000; /* اللون الأحمر */
+    color: white; /* لون النص */
+    border: none; /* إزالة الحدود */
+    padding: 10px 20px; /* المسافات الداخلية */
+    cursor: pointer; /* تغيير المؤشر */
+    border-radius: 50px; /* زوايا دائرية */
+    font-size: 40px; /* حجم الخط */
+    transition: background-color 0.3s ease; /* تأثير الانتقال */
+}
+
+/* تأثير عند التمرير بالماوس فوق الزر */
+button:hover {
+    background-color: #CC0000; /* لون أحمر أغمق */
+}
