@@ -8,6 +8,11 @@ body {
     margin: 0;
     background-color: #f0f0f0;
 }
+<style>
+    a {
+      font-size: 20px;
+    }
+</style>
 
 /* استايل الهيدر */
 header {
