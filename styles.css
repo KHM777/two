@@ -32,7 +32,7 @@ p {
 }
 
 /* استايل الزر */
-button {
+#clickMe {
     background-color: #FF0000; /* اللون الأحمر */
     color: white; /* لون النص */
     border: none; /* إزالة الحدود */
@@ -46,6 +46,6 @@ button {
 }
 
 /* تأثير عند التمرير بالماوس فوق الزر */
-button:hover {
+#clickMe:hover {
     background-color: #CC0000; /* لون أحمر أغمق */
 }
