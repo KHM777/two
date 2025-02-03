@@ -1,4 +1,10 @@
-a {
+body {
+    display: flex;
+    height: 200vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+.custom-link {
         font-size: 50px;
         text-decoration: none; /* إزالة الخط الأساسي */
         border-bottom: 2px solid transparent; /* خط شفاف تحت النص */
@@ -6,8 +12,7 @@ a {
         color: red; /* اللون الأساسي للنص */
         transition: border-color 0.3s ease, transform 0.3s ease; /* تأثيرات سلسة للحدود والحجم */
     }
-
-    a:hover {
+.custom-link:hover {
       border-bottom: #CC0000; /* اللون الأحمر الغامق عند التمرير */
       transform: scale(1.1); /* تكبير النص عند التمرير ليظهر وكأنه ينبثق */
     }
