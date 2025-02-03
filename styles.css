@@ -47,3 +47,17 @@ button {
 button:hover {
     background-color: #CC0000; /* لون أحمر أغمق */
 }
+
+a {
+        font-size: 50px;
+        text-decoration: none; /* إزالة الخط الأساسي */
+        border-bottom: 2px solid transparent; /* خط شفاف تحت النص */
+        display: inline-block; /* لجعل التحويل يعمل */
+        color: red; /* اللون الأساسي للنص */
+        transition: border-color 0.3s ease, transform 0.3s ease; /* تأثيرات سلسة للحدود والحجم */
+    }
+
+    a:hover {
+      border-bottom: #CC0000; /* اللون الأحمر الغامق عند التمرير */
+      transform: scale(1.1); /* تكبير النص عند التمرير ليظهر وكأنه ينبثق */
+    }
