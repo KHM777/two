@@ -33,7 +33,7 @@ header {
     font-family: 'Dancing Script', cursive; /* الخط القديم المظهر */
     font-size: 90px; /* حجم الخط كبير جدا */
     color: #FFD700; /* اللون الذهبي لجعل النص يبرز */
-    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5); /* إضافة تأثير الظل للنص */
+    text-shadow: 3px 3px 5px rgba(255, 255, 255, 0.7); /* ظل أبيض */
     animation: signatureAnimation 2s ease-in-out infinite; /* تأثير تحريك العنوان */
 }
 
